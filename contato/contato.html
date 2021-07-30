@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menu Mobile</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="../css/header_basic.css">
+  <script src="https://kit.fontawesome.com/4dac06bbbe.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <header id="header">
+    <a id="logo" href="/"><img src="../Imagens/web/logo.png" alt="Rocky"></a>
+    <nav id="nav">
+      <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">
+        <span id="hamburger"></span>
+      </button>
+      <ul id="menu" role="menu">
+        <li><a href="../sobre/sobre.html">Sobre a rocky</a></li>
+        <li><a href="../servicos/servicos.html">Serviços</a></li>
+        <li><a href="../diferenciais/diferenciais.html">Diferenciais</a></li>
+        <li><a href="/">trabalhe conosco</a></li>
+        <li><a href="#!">contato</a></li>
+        <li><a href="/">blog</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div class="container">
+      <section id="data-place">
+        <div id="header-icons">
+          <img src="../Imagens/web/logo.png" alt="rocky">
+          <i class="fa fa-facebook" aria-hidden="true"></i>
+          <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+        </div>
+        <div id="contatos">
+          <div class="name-copy" onclick="setClipboard('contato@rocky.ag','')"><i class="fas fa-envelope"></i> <p>contato@rocky.ag</p></div>
+          <p>|</p>
+          <div class="name-copy"  onclick="setClipboard('(11)3321-1105','')"> <i class="fas fa-phone-alt"></i> <p>(11) 3321-1105</p></div>
+        </div>
+        <div id="local">
+          <i class="fas fa-map-marker-alt"></i><p>Rua Romeu do Nascimento 247, 2º andar, Sorocaba, São Paulo 18047-410, BR</p>
+        </div>
+        <div id="text">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus venenatis lacus purus, eget sodales metus venenatis ac.</p>
+          <p> Nulla facilisi. Nunc aliquet varius ante, nec iaculis quam lacinia id. In eleifend aliquet commodo.</p>
+          <p> Phasellus tempus urna neque, vitae finibus nisl porttitor eu. Nullam vitae arcu et magna volutpat egestas in malesuada libero.</p>
+        </div>
+        </section>
+        <section id="form">
+            <form >
+              <input type="text" placeholder="Nome">
+              <input type="email"  placeholder="E-mail" name="" id="">
+              <input type="number" placeholder="Investimento mensal">
+              <input type="text-area"  placeholder="Mensagem">
+              <input type="submit" value="Submit">
+            </form>
+        </section>
+  </div>
+  <script src="../js/header.js"></script>
+  <script src="../js/copyTo.js"></script>
+</body>
+
+</html>
