@@ -2,7 +2,7 @@
 body {
   background-image: url("../Imagens/web/bg.png");
   background-repeat: no-repeat;
-  background-position: left  bottom 50%;
+  background-position: left  bottom 55%;
   background-attachment: fixed;
   /* background-position: center top 24%; */
   /* background-position: center top 40%; */
@@ -14,21 +14,30 @@ body {
     background-image: none;
   }
 }
-
-.container{
-  display: grid;
-  justify-items: center;
+#card-3{
+  background:
+  /* linear-gradient(to right ,rgba(26,55,76,.7)  45% , transparent  ), */
+  url(../Imagens/web/s3\ ft3.png) no-repeat center center;
+  background-size: 100% 100%;
 }
-@media (min-width:768px) {
-  .container{
-    display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
-  }
-  
+#card-2{
+  background:
+  /* linear-gradient(to right ,rgba(26,55,76,.7)  45% , transparent  ), */
+  url(../Imagens/web/s3\ ft2.png) no-repeat center center;
+  background-size: 100% 100%;
 }
+#card-1{
+  background:
+  /* linear-gradient(to right ,rgba(26,55,76,.7)  45% , transparent  ), */
+  url(../Imagens/web/s3\ ft1.png) no-repeat center center;
+  background-size: 100% 100%;
+
+}
+/* .container{
+  display: flex;
+
+} */
 
 
-.card h3{
-  color: yellow;
-  margin-bottom: 10px;
-}
+
+
